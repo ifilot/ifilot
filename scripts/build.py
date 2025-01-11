@@ -50,7 +50,7 @@ def main():
     ccp_repositories = []
     for repo in repositories:
         res = fetch_github_repo_details('ifilot', repo, token)
-        res['languages'] = fetch_github_languages('ifilot', repo, token)
+        res['languages'] = fetch_github_languages('ifilot', repo, token)[:2]
         ccp_repositories.append(res)
 
     # Define the data to pass to the template
