@@ -1,0 +1,26 @@
+name: README build
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 */12 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: Install dependencies
+        run:| 
+          sudo apt update && sudo apt install -y python3
+          pip install ninja2
+      - name: Generate README file
+        run: python3 scripts/build.py
+      - name: Push new README.md
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
