@@ -24,7 +24,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> hfcxx</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> hfcxx</a><br>
           <i>Hartree-Fock C++ code</i>
       </td>
       <td><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 29
@@ -35,7 +35,7 @@
       </td>
     </tr>
     <tr>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> dftcxx</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> dftcxx</a><br>
           <i>C++ based DFT program for educational purposes</i>
       </td>
       <td><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 57
@@ -46,7 +46,7 @@
       </td>
     </tr>
     <tr>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> edp</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> edp</a><br>
           <i>Electron Density Plotter</i>
       </td>
       <td><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 36
@@ -57,7 +57,7 @@
       </td>
     </tr>
     <tr>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> den2obj</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> den2obj</a><br>
           <i>Generate isosurface from density data</i>
       </td>
       <td><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 12
@@ -68,7 +68,7 @@
       </td>
     </tr>
     <tr>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pyqint</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pyqint</a><br>
           <i>Python package for evaluating integrals of Gaussian type orbitals in electronic structure calculations</i>
       </td>
       <td><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 26
@@ -79,7 +79,7 @@
       </td>
     </tr>
     <tr>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pydft</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pydft</a><br>
           <i>Python based localized-orbital Density Functional Theory code for educational purposes. </i>
       </td>
       <td><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 4
@@ -90,7 +90,7 @@
       </td>
     </tr>
     <tr>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> sphecerix</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> sphecerix</a><br>
           <i>Rotation of spherical harmonics using Wigner-D matrices</i>
       </td>
       <td><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 15
@@ -101,7 +101,7 @@
       </td>
     </tr>
     <tr>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pypwdft</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pypwdft</a><br>
           <i>Python-based plane wave density functional theory code for educational purposes</i>
       </td>
       <td><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 8
