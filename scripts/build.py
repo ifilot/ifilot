@@ -66,6 +66,7 @@ def fetch_github_repo_details(owner, repo):
             "forks": forks,
             "description": description,
             "link": link,
+            "repo": repo,
         }
     else:
         raise Exception(f"Failed to fetch data: {response.status_code}")
