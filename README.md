@@ -31,10 +31,10 @@
   </thead>
   <tbody>
     <tr>
-      <td width="70%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> hfcxx</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> hfcxx</a><br>
           <small style="color: gray;"><i>Hartree-Fock C++ code</i></small>
       </td>
-      <td><span style="color: #f34b7d;">●</span> C++, <span style="color: #555555;">●</span> C, <span style="color: #DA3434;">●</span> CMake</td>
+      <td>C++, C, CMake</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 29
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
@@ -43,10 +43,10 @@
       </td>
     </tr>
     <tr>
-      <td width="70%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> dftcxx</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> dftcxx</a><br>
           <small style="color: gray;"><i>C++ based DFT program for educational purposes</i></small>
       </td>
-      <td><span style="color: #f34b7d;">●</span> C++, <span style="color: #DA3434;">●</span> CMake, <span style="color: #555555;">●</span> C, <span style="color: #3572A5;">●</span> Python</td>
+      <td>C++, CMake, C, Python</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 57
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
@@ -55,10 +55,10 @@
       </td>
     </tr>
     <tr>
-      <td width="70%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> edp</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> edp</a><br>
           <small style="color: gray;"><i>Electron Density Plotter</i></small>
       </td>
-      <td><span style="color: #f34b7d;">●</span> C++, <span style="color: #DA3434;">●</span> CMake, <span style="color: #3D6117;">●</span> TeX, <span style="color: #3572A5;">●</span> Python, <span style="color: #555555;">●</span> C, <span style="color: #89e051;">●</span> Shell, <span style="color: #384d54;">●</span> Dockerfile</td>
+      <td>C++, CMake, TeX, Python, C, Shell, Dockerfile</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 36
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 2
@@ -67,10 +67,10 @@
       </td>
     </tr>
     <tr>
-      <td width="70%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> den2obj</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> den2obj</a><br>
           <small style="color: gray;"><i>Generate isosurface from density data</i></small>
       </td>
-      <td><span style="color: #f34b7d;">●</span> C++, <span style="color: #555555;">●</span> C, <span style="color: #DA3434;">●</span> CMake, <span style="color: #3D6117;">●</span> TeX, <span style="color: #3572A5;">●</span> Python, <span style="color: #89e051;">●</span> Shell, <span style="color: #384d54;">●</span> Dockerfile</td>
+      <td>C++, C, CMake, TeX, Python, Shell, Dockerfile</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 12
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 1
@@ -79,10 +79,10 @@
       </td>
     </tr>
     <tr>
-      <td width="70%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pyqint</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pyqint</a><br>
           <small style="color: gray;"><i>Python package for evaluating integrals of Gaussian type orbitals in electronic structure calculations</i></small>
       </td>
-      <td><span style="color: #3572A5;">●</span> Python, <span style="color: #f34b7d;">●</span> C++, <span style="color: #fedf5b;">●</span> Cython, <span style="color: #89e051;">●</span> Shell, <span style="color: #555555;">●</span> C, <span style="color: #384d54;">●</span> Dockerfile, <span style="color: #C1F12E;">●</span> Batchfile</td>
+      <td>Python, C++, Cython, Shell, C, Dockerfile, Batchfile</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 26
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
@@ -91,10 +91,10 @@
       </td>
     </tr>
     <tr>
-      <td width="70%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pydft</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pydft</a><br>
           <small style="color: gray;"><i>Python based localized-orbital Density Functional Theory code for educational purposes. </i></small>
       </td>
-      <td><span style="color: #3572A5;">●</span> Python, <span style="color: #89e051;">●</span> Shell, <span style="color: #384d54;">●</span> Dockerfile</td>
+      <td>Python, Shell, Dockerfile</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 4
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
@@ -103,10 +103,10 @@
       </td>
     </tr>
     <tr>
-      <td width="70%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> sphecerix</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> sphecerix</a><br>
           <small style="color: gray;"><i>Rotation of spherical harmonics using Wigner-D matrices</i></small>
       </td>
-      <td><span style="color: #3572A5;">●</span> Python, <span style="color: #89e051;">●</span> Shell, <span style="color: #384d54;">●</span> Dockerfile</td>
+      <td>Python, Shell, Dockerfile</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 15
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
@@ -115,10 +115,10 @@
       </td>
     </tr>
     <tr>
-      <td width="70%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pypwdft</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pypwdft</a><br>
           <small style="color: gray;"><i>Python-based plane wave density functional theory code for educational purposes</i></small>
       </td>
-      <td><span style="color: #3572A5;">●</span> Python, <span style="color: #89e051;">●</span> Shell, <span style="color: #384d54;">●</span> Dockerfile</td>
+      <td>Python, Shell, Dockerfile</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 8
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
