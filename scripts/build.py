@@ -18,18 +18,20 @@ def main():
 
     # show languages / tools
     language_icons = [
-        'https://img.shields.io/badge/-C-blue?logo=c',
+        'https://img.shields.io/badge/-C-blue?logo=c&logoColor=white',
         'https://img.shields.io/badge/-C++-blue?logo=cplusplus',
         'https://img.shields.io/badge/cMake-064F8C?&logo=cmake&logoColor=white',
         'https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54',
         'https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white',
+        'https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff',
         'https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=white'
         'https://img.shields.io/badge/asm-6502-orange',
         'https://img.shields.io/badge/asm-z80-orange',
         'https://img.shields.io/badge/asm-8086-orange',
         'https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=fff',
-        'https://img.shields.io/badge/-LaTeX-008080&logo=latex&logoColor=white',
-        'https://img.shields.io/badge/Sphinx-F7C942&logo=sphinx&logoColor=white',
+        'https://img.shields.io/badge/-LaTeX-008080?logo=latex&logoColor=white',
+        'https://img.shields.io/badge/Sphinx-F7C942?logo=sphinx&logoColor=white',
+        'https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&logoColor=white',
     ]
 
     # fetch repo data
@@ -39,8 +41,7 @@ def main():
     ccp_repositories = []
     for repo in repositories:
         res = fetch_github_repo_details('ifilot', repo, token)
-        langs = fetch_github_languages('ifilot', repo, token)
-        res['languages'] = dict(list(langs['languages'].items())[:3])
+        res['languages'] = fetch_github_languages('ifilot', repo, token)
         ccp_repositories.append(res)
 
     # Define the data to pass to the template
@@ -83,23 +84,39 @@ def fetch_github_repo_details(owner, repo, token):
     else:
         raise Exception(f"Failed to fetch data: {response.status_code}")
 
-def fetch_github_languages(owner, repo, token):
-    url = f"https://api.github.com/repos/{owner}/{repo}/languages"
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Accept": "application/vnd.github.v3+json"
-    }
-
-    response = requests.get(url, headers=headers)
-
-    if response.status_code == 200:
-        data = response.json()
-        # Calculate the dominant language based on the largest byte count
-        dominant_language = max(data, key=data.get) if data else "No languages found"
-        return {"languages": data, "dominant_language": dominant_language}
-    else:
+def fetch_github_languages(owner, repo, token=None):
+    # Fetch languages from the GitHub API
+    api_url = f"https://api.github.com/repos/{owner}/{repo}/languages"
+    headers = {"Accept": "application/vnd.github.v3+json"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    
+    response = requests.get(api_url, headers=headers)
+    if response.status_code != 200:
         print(f"Failed to fetch languages: {response.status_code}")
         return None
+    
+    languages = response.json()
+    
+    # Fetch language colors
+    colors_response = requests.get("https://raw.githubusercontent.com/ozh/github-colors/master/colors.json")
+    if colors_response.status_code != 200:
+        print("Failed to fetch language colors.")
+        return None
+    
+    colors = colors_response.json()
+    
+    # Match languages with their colors
+    language_data = []
+    for lang, bytes_count in languages.items():
+        color = colors.get(lang, {}).get("color", "#CCCCCC")  # Default to grey if no color found
+        language_data.append({
+            "language": lang,
+            "bytes": bytes_count,
+            "color": color,
+        })
+    
+    return language_data
 
 if __name__ == '__main__':
     main()

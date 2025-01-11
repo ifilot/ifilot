@@ -27,7 +27,7 @@
       </td>
       <td>
         {%- for lang in repo.languages -%}
-            {{ lang }}{% if not loop.last %}, {% endif %}
+            <span style="color: {{ lang.color }};">●</span> {{ lang.language }}{% if not loop.last %}, {% endif %}
         {%- endfor -%}
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> {{ repo.stars }}
