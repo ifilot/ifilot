@@ -21,7 +21,7 @@
   <tbody>
   {%- for repo in ccp_repositories %}
     <tr>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> {{ repo.repo }}</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> {{ repo.repo }}</a><br>
           <i>{{ repo.description }}</i>
       </td>
       <td><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> {{ repo.stars }}
