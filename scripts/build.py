@@ -1,7 +1,8 @@
 from jinja2 import Environment, FileSystemLoader
+import os
 
 # Configure Jinja2 environment
-env = Environment(loader=FileSystemLoader('templates'))
+env = Environment(loader=FileSystemLoader(os.path.join([os.path.dirname(__file__), 'templates'])))
 
 # Load the template
 template = env.get_template('index.tpl')
