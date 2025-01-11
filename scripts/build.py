@@ -20,12 +20,16 @@ def main():
     language_icons = [
         'https://img.shields.io/badge/-C-blue?logo=c',
         'https://img.shields.io/badge/-C++-blue?logo=cplusplus',
+        'https://img.shields.io/badge/cMake-064F8C?&logo=cmake&logoColor=white',
         'https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54',
         'https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white',
         'https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=white'
         'https://img.shields.io/badge/asm-6502-orange',
         'https://img.shields.io/badge/asm-z80-orange',
         'https://img.shields.io/badge/asm-8086-orange',
+        'https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=fff',
+        'https://img.shields.io/badge/-LaTeX-008080&logo=latex&logoColor=white',
+        'https://img.shields.io/badge/Sphinx-F7C942&logo=sphinx&logoColor=white',
     ]
 
     # fetch repo data
@@ -36,7 +40,7 @@ def main():
     for repo in repositories:
         res = fetch_github_repo_details('ifilot', repo, token)
         langs = fetch_github_languages('ifilot', repo, token)
-        res['languages'] = langs['languages']
+        res['languages'] = dict(list(langs['languages'].items())[:3])
         ccp_repositories.append(res)
 
     # Define the data to pass to the template
