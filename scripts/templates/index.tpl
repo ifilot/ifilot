@@ -13,6 +13,7 @@
   <thead align="center">
     <tr border: none;>
       <td><b>Projects</b></td>
+      <td><b>Languages</b></td>
       <td><b>Stars</b></td>
       <td><b>Issues</b></td>
       <td><b>Forks</b></td>
@@ -23,6 +24,11 @@
     <tr>
       <td width="70%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> {{ repo.repo }}</a><br>
           <small style="color: gray;"><i>{{ repo.description }}</i></small>
+      </td>
+      <td>
+        {%- for lang in repo.languages -%}
+            {{ lang }}{% if not loop.last %}, {% endif %}
+        {%- endfor -%}
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> {{ repo.stars }}
       </td>

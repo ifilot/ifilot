@@ -1,6 +1,7 @@
 from jinja2 import Environment, FileSystemLoader
 import os
 import requests
+import sys
 
 def main():
     # Configure Jinja2 environment
@@ -8,6 +9,9 @@ def main():
         os.path.dirname(__file__), 
         'templates')
     ))
+
+    # use token
+    token = sys.argv[1]
 
     # Load the template
     template = env.get_template('index.tpl')
@@ -30,7 +34,10 @@ def main():
     ]
     ccp_repositories = []
     for repo in repositories:
-        ccp_repositories.append(fetch_github_repo_details('ifilot', repo))
+        res = fetch_github_repo_details('ifilot', repo, token)
+        langs = fetch_github_languages('ifilot', repo, token)
+        res['languages'] = langs['languages']
+        ccp_repositories.append(res)
 
     # Define the data to pass to the template
     data = {
@@ -45,9 +52,10 @@ def main():
     with open("README.md", "w") as f:
         f.write(output)
 
-def fetch_github_repo_details(owner, repo):
+def fetch_github_repo_details(owner, repo, token):
     url = f"https://api.github.com/repos/{owner}/{repo}"
     headers = {
+        "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github.v3+json"
     }
 
@@ -70,6 +78,24 @@ def fetch_github_repo_details(owner, repo):
         }
     else:
         raise Exception(f"Failed to fetch data: {response.status_code}")
-    
+
+def fetch_github_languages(owner, repo, token):
+    url = f"https://api.github.com/repos/{owner}/{repo}/languages"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+
+    response = requests.get(url, headers=headers)
+
+    if response.status_code == 200:
+        data = response.json()
+        # Calculate the dominant language based on the largest byte count
+        dominant_language = max(data, key=data.get) if data else "No languages found"
+        return {"languages": data, "dominant_language": dominant_language}
+    else:
+        print(f"Failed to fetch languages: {response.status_code}")
+        return None
+
 if __name__ == '__main__':
     main()
