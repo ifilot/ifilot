@@ -11,7 +11,11 @@ env = Environment(loader=FileSystemLoader(os.path.join(
 template = env.get_template('index.tpl')
 
 language_icons = [
+    'https://img.shields.io/badge/-C-blue?logo=c',
     'https://img.shields.io/badge/-C++-blue?logo=cplusplus',
+    'https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54',
+    'https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white',
+    'https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=black'
 ]
 
 # Define the data to pass to the template
