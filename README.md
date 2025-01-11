@@ -1,13 +1,5 @@
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1643517375/34106/coffee_chemistry.gif" width="30"/> Hey there!</h1>
-<p>I am Ivo, computational chemist and retro computer enthousiast :space_invader: from the Netherlands <img src="https://hatscripts.github.io/circle-flags/flags/nl.svg" width="16">.
-<p>This is a minimal example of rendering a webpage with Jinja2.</p>
+<h1>:wave: Hey there!</h1>
+<p>I am Ivo, computational chemist :test_tube: and retro computer enthousiast :space_invader: from the Netherlands <img src="https://hatscripts.github.io/circle-flags/flags/nl.svg" width="16">.
 
-<ul>
-    
-    <li>Item 1</li>
-    
-    <li>Item 2</li>
-    
-    <li>Item 3</li>
-    
-</ul>
+<h2>Languages I like to program with</h2>
+<img src="https://img.shields.io/badge/-C-blue?logo=c" /><img src="https://img.shields.io/badge/-C++-blue?logo=cplusplus" /><img src="https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54" /><img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" /><img src="https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=black" />
