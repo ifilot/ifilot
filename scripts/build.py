@@ -35,7 +35,7 @@ def main():
         'https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff',
         'https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white',
         'https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff',
-        'https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff',
+        'https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white',
         'https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white',
         'https://img.shields.io/badge/Sublime%20Text-%23575757.svg?logo=sublime-text&logoColor=important',
         'https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white',
