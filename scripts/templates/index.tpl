@@ -1,9 +1,7 @@
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1643517375/34106/coffee_chemistry.gif" width="30"/> Hey there!</h1>
-<p>I am Ivo, computational chemist and retro computer enthousiast :space_invader: from the Netherlands <img src="https://hatscripts.github.io/circle-flags/flags/nl.svg" width="16">.
-<p>{{ message }}</p>
+<h1>:wave: Hey there!</h1>
+<p>I am Ivo, computational chemist :test_tube: and retro computer enthousiast :space_invader: from the Netherlands <img src="https://hatscripts.github.io/circle-flags/flags/nl.svg" width="16">.
 
-<ul>
-    {% for item in items %}
-    <li>{{ item }}</li>
-    {% endfor %}
-</ul>
+<h2>Languages I like to program with</h2>
+{% for img in language_icons -%}
+<img src="{{ img }}" />
+{%- endfor %}
