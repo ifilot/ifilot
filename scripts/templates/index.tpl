@@ -21,14 +21,14 @@
   <tbody>
   {%- for repo in ccp_repositories %}
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> {{ repo.repo }}</a><br>
-          <i>{{ repo.description }}</i>
+      <td width="70%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> {{ repo.repo }}</a><br>
+          <small style="color: gray;"><i>{{ repo.description }}</i></small>
       </td>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> {{ repo.stars }}
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> {{ repo.stars }}
       </td>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> {{ repo.issues }}
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> {{ repo.issues }}
       </td>
-      <td><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> {{ repo.forks }}
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> {{ repo.forks }}
       </td>
     </tr>
   {%- endfor %}
