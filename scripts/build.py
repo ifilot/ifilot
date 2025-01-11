@@ -16,6 +16,9 @@ language_icons = [
     'https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54',
     'https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white',
     'https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=black'
+    'https://img.shields.io/badge/asm-6502-red',
+    'https://img.shields.io/badge/asm-z80-red',
+    'https://img.shields.io/badge/asm-8086-red',
 ]
 
 # Define the data to pass to the template
