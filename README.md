@@ -26,7 +26,7 @@
 <img src="https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white" />
 <img src="https://img.shields.io/badge/Sublime%20Text-%23575757.svg?logo=sublime-text&logoColor=important" />
 <img src="https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white" />
-<img src="https://img.shields.io/badge/Shell-4EAA25?&style=plastic&logo=gnu-bash&logoColor=white" />
+<img src="https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white" />
 <img src="https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=white" />
 <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi" />
 </p>
