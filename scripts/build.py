@@ -4,7 +4,7 @@ import requests
 import sys
 
 def main():
-    # Configure Jinja2 environment
+    # Jinja2 template folder
     env = Environment(loader=FileSystemLoader(os.path.join(
         os.path.dirname(__file__), 
         'templates')
@@ -43,6 +43,9 @@ def main():
         'https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi',
     ]
 
+    ############################################################################
+    # Computational Chemistry Projects
+    ############################################################################
     ccp_repositories = get_repo_data([
         'pyqint', 
         'pydft', 
@@ -53,27 +56,49 @@ def main():
         'edp', 
         'den2obj', 
         'sphecerix', 
-        'bramble'
+        'bramble',
+        'wavefuse',
+        'turing',
+        'pylebedev',
+        'atom-architect',
+        'den2bin',
+        'ppmil',
     ])
 
+    ############################################################################
+    # P2000T / C Chemistry Projects
+    ############################################################################
     p2k_repositories = get_repo_data([
         'p2000t-sdcard', 
         'p2000t-cartridges',
         'p2000t-cartridge-reader',
+        'p2000t-scart-connector-pcb',
         'p2000c-bytebridge-8086',
+        'P2000T-SD-kaart-handleiding',
     ])
 
+    ############################################################################
+    # Open source hardware solutions
+    ############################################################################
     oshw_repositories = get_repo_data([
         'pico-sst39sf0x0-programmer',
         'pico-flasher-cli',
     ])
 
+    ############################################################################
+    # Open source education
+    ############################################################################
     osed_repositories = get_repo_data([
         'opengl-cpp-course',
         'hsl-pwdft-exercises',
         'pwdft-lecture-notes',
+        'hfhsl2021',
+        'hfhsl',
     ])
 
+    ############################################################################
+    # 8-bit games
+    ############################################################################
     games8b_repositories = get_repo_data([
         'cx16-kakuro',
         'cx16-othello',
