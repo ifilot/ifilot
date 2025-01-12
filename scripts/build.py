@@ -47,6 +47,7 @@ def main():
         'pyqint', 
         'pydft', 
         'pypwdft',
+        'pytessel',
         'hfcxx', 
         'dftcxx', 
         'edp', 
@@ -74,9 +75,9 @@ def main():
     ])
 
     games8b_repositories = get_repo_data([
-        'https://github.com/ifilot/cx16-kakuro',
-        'https://github.com/ifilot/cx16-othello',
-        'https://github.com/ifilot/tetrix',
+        'cx16-kakuro',
+        'cx16-othello',
+        'tetrix',
     ])
 
     # Define the data to pass to the template
