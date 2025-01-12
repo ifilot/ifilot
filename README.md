@@ -28,6 +28,9 @@
 <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi" />
 </p>
 
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide_progress=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" />
+
 <h2>Computational chemistry projects</h2>
 <table>
   <thead align="center">
@@ -265,6 +268,60 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Open education</h2>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>Projects</b></td>
+      <td><b>Languages</b></td>
+      <td><b>Stars</b></td>
+      <td><b>Issues</b></td>
+      <td><b>Forks</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/opengl-cpp-course">opengl-cpp-course</a><br>
+          <small style="color: gray;"><i>Course to learn how to write OpenGL C++ programs</i></small>
+      </td>
+      <td>C++, CMake</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 22
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 5
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/hsl-pwdft-exercises">hsl-pwdft-exercises</a><br>
+          <small style="color: gray;"><i>Plane Wave Density Functional Theory Exercises for the Han-sur-Lesse Winterschool 2024</i></small>
+      </td>
+      <td>Python</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 1
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/pwdft-lecture-notes">pwdft-lecture-notes</a><br>
+          <small style="color: gray;"><i>Lecture notes on plane-wave density functional theory</i></small>
+      </td>
+      <td>TeX, Python</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 5
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 2
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 1
       </td>
     </tr>
   </tbody>
