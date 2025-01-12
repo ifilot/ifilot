@@ -72,6 +72,7 @@ def main():
         'p2000t-sdcard', 
         'p2000t-cartridges',
         'p2000t-cartridge-reader',
+        'p2000t-z80-ide',
         'p2000t-scart-connector-pcb',
         'p2000c-bytebridge-8086',
         'P2000T-SD-kaart-handleiding',
