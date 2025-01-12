@@ -31,14 +31,14 @@
 <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi" />
 </p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=14&layout=compact" /><img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=14&layout=compact" /> <img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" />
 
 <h2>Computational chemistry projects</h2>
-<table>
+<table width="100%">
   <thead align="center">
     <tr border: none;>
       <td><b>Projects</b></td>
-      <td><b>Languages</b></td>
+      <td><b>Language(s)</b></td>
       <td><b>Stars</b></td>
       <td><b>Issues</b></td>
       <td><b>Forks</b></td>
@@ -168,11 +168,11 @@
 <h2>Retro computing</h2>
 
 <h3>Philips P2000T and P2000C</h3>
-<table>
+<table width="100%">
   <thead align="center">
     <tr border: none;>
       <td><b>Projects</b></td>
-      <td><b>Languages</b></td>
+      <td><b>Language(s)</b></td>
       <td><b>Stars</b></td>
       <td><b>Issues</b></td>
       <td><b>Forks</b></td>
@@ -235,11 +235,11 @@
 </table>
 
 <h2>Open source hardware/software</h2>
-<table>
+<table width="100%">
   <thead align="center">
     <tr border: none;>
       <td><b>Projects</b></td>
-      <td><b>Languages</b></td>
+      <td><b>Language(s)</b></td>
       <td><b>Stars</b></td>
       <td><b>Issues</b></td>
       <td><b>Forks</b></td>
@@ -276,11 +276,11 @@
 </table>
 
 <h2>Open education</h2>
-<table>
+<table width="100%">
   <thead align="center">
     <tr border: none;>
       <td><b>Projects</b></td>
-      <td><b>Languages</b></td>
+      <td><b>Language(s)</b></td>
       <td><b>Stars</b></td>
       <td><b>Issues</b></td>
       <td><b>Forks</b></td>
