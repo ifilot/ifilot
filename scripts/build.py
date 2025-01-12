@@ -73,6 +73,12 @@ def main():
         'pwdft-lecture-notes',
     ])
 
+    games8b_repositories = get_repo_data([
+        'https://github.com/ifilot/cx16-kakuro',
+        'https://github.com/ifilot/cx16-othello',
+        'https://github.com/ifilot/tetrix',
+    ])
+
     # Define the data to pass to the template
     data = {
         'language_icons' : language_icons,
@@ -80,6 +86,7 @@ def main():
         'p2k_repositories' : p2k_repositories,
         'oshw_repositories' : oshw_repositories,
         'osed_repositories' : osed_repositories,
+        'games8b_repositories' : games8b_repositories,
     }
 
     # Render the template with the data
