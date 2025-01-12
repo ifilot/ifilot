@@ -8,8 +8,7 @@
 {%- endfor %}
 </p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide_progress=true" />
-<img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=14&layout=compact" /><img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" />
 
 <h2>Computational chemistry projects</h2>
 <table>
