@@ -175,6 +175,84 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
       </td>
     </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/wavefuse">wavefuse</a><br>
+          <small style="color: gray;"><i>Gray-Scott reaction-diffusion system in 3D using CUDA</i></small>
+      </td>
+      <td>C, C++</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 10
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 3
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/turing">turing</a><br>
+          <small style="color: gray;"><i>C++ script to generate Turing patterns</i></small>
+      </td>
+      <td>C++, CMake</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 10
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 1
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/pylebedev">pylebedev</a><br>
+          <small style="color: gray;"><i>Python Library for Lebedev Quadrature points and weights</i></small>
+      </td>
+      <td>Python, Shell</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 7
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 1
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/atom-architect">atom-architect</a><br>
+          <small style="color: gray;"><i>Visualization and building tool for electronic structure calculations</i></small>
+      </td>
+      <td>C++, GLSL</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 3
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 4
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/den2bin">den2bin</a><br>
+          <small style="color: gray;"><i>Tool that converts VASP density file (CHGCAR/LOCPOT) to a binary file</i></small>
+      </td>
+      <td>C++, CMake</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 2
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/ppmil">ppmil</a><br>
+          <small style="color: gray;"><i>Pure Python Molecular Integral Library</i></small>
+      </td>
+      <td>Python, Shell</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 1
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -227,6 +305,32 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 2
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 1
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/hfhsl2021">hfhsl2021</a><br>
+          <small style="color: gray;"><i>Exercises for the Hartree-Fock Workshop for the Han-sur-Lesse Winterschool of 2021</i></small>
+      </td>
+      <td>Python</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 5
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 3
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/hfhsl">hfhsl</a><br>
+          <small style="color: gray;"><i>Hartree-Fock Course for Han-sur-Lesse 2017</i></small>
+      </td>
+      <td>C++, Makefile</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 4
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
       </td>
     </tr>
   </tbody>
@@ -328,6 +432,19 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/p2000t-scart-connector-pcb">p2000t-scart-connector-pcb</a><br>
+          <small style="color: gray;"><i>PCB for connecting a SCART male connector for component video (RGBS)</i></small>
+      </td>
+      <td></td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 1
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
           <a href="https://github.com/ifilot/p2000c-bytebridge-8086">p2000c-bytebridge-8086</a><br>
           <small style="color: gray;"><i>8086 CoPower Board serial communication program for the Philips P2000C</i></small>
       </td>
@@ -335,6 +452,19 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/P2000T-SD-kaart-handleiding">P2000T-SD-kaart-handleiding</a><br>
+          <small style="color: gray;"><i>Nederlandstalige handleiding voor de P2000T SD-kaart cartridge</i></small>
+      </td>
+      <td>TeX</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 1
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 3
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
       </td>
