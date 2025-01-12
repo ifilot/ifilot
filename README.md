@@ -9,9 +9,10 @@
 <img src="https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54" />
 <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff" />
-<img src="https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=whitehttps://img.shields.io/badge/asm-6502-orange" />
-<img src="https://img.shields.io/badge/asm-z80-orange" />
-<img src="https://img.shields.io/badge/asm-8086-orange" />
+<img src="https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=white" />
+<img src="https://img.shields.io/badge/ASM-6502-e32dbf" />
+<img src="https://img.shields.io/badge/ASM-z80-e32dbf" />
+<img src="https://img.shields.io/badge/ASM-8086-e32dbf" />
 <img src="https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=fff" />
 <img src="https://img.shields.io/badge/-LaTeX-008080?logo=latex&logoColor=white" />
 <img src="https://img.shields.io/badge/Sphinx-F7C942?logo=sphinx&logoColor=white" />
@@ -23,7 +24,7 @@
 <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
 <img src="https://img.shields.io/badge/Sublime%20Text-%23575757.svg?logo=sublime-text&logoColor=important" />
 <img src="https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white" />
-<img src="https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=black" />
+<img src="https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=white" />
 <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi" />
 </p>
 
@@ -174,7 +175,8 @@
   </thead>
   <tbody>
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> p2000t-sdcard</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/p2000t-sdcard">p2000t-sdcard</a><br>
           <small style="color: gray;"><i>SD-card cartridge for the P2000T</i></small>
       </td>
       <td>C, Assembly</td>
@@ -186,7 +188,8 @@
       </td>
     </tr>
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> p2000t-cartridges</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/p2000t-cartridges">p2000t-cartridges</a><br>
           <small style="color: gray;"><i>Collection of homebrew P2000T cartridges</i></small>
       </td>
       <td>Python</td>
@@ -198,7 +201,8 @@
       </td>
     </tr>
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> p2000t-cartridge-reader</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/p2000t-cartridge-reader">p2000t-cartridge-reader</a><br>
           <small style="color: gray;"><i>Arduino Leonardo based P2000T Cartridge Reader</i></small>
       </td>
       <td>Python, C++</td>
@@ -210,7 +214,8 @@
       </td>
     </tr>
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> p2000c-bytebridge-8086</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/p2000c-bytebridge-8086">p2000c-bytebridge-8086</a><br>
           <small style="color: gray;"><i>8086 CoPower Board serial communication program for the Philips P2000C</i></small>
       </td>
       <td>Assembly, Python</td>
@@ -237,7 +242,8 @@
   </thead>
   <tbody>
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pico-sst39sf0x0-programmer</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/pico-sst39sf0x0-programmer">pico-sst39sf0x0-programmer</a><br>
           <small style="color: gray;"><i>PICO based flasher utility for SST39SF0x0 EEPROM chips</i></small>
       </td>
       <td>C++, C</td>
@@ -249,7 +255,8 @@
       </td>
     </tr>
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> pico-flasher-cli</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/pico-flasher-cli">pico-flasher-cli</a><br>
           <small style="color: gray;"><i>Command line tool to interface with the SST39SF0x0 PICO Flasher</i></small>
       </td>
       <td>C++, CMake</td>
