@@ -58,7 +58,8 @@
   <tbody>
   {%- for repo in p2k_repositories %}
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> {{ repo.repo }}</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="{{ repo.link }}">{{ repo.repo }}</a><br>
           <small style="color: gray;"><i>{{ repo.description }}</i></small>
       </td>
       <td>
@@ -91,7 +92,8 @@
   <tbody>
   {%- for repo in oshw_repositories %}
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> {{ repo.repo }}</a><br>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="{{ repo.link }}">{{ repo.repo }}</a><br>
           <small style="color: gray;"><i>{{ repo.description }}</i></small>
       </td>
       <td>

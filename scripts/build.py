@@ -21,10 +21,10 @@ def main():
         'https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54',
         'https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white',
         'https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff',
-        'https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=white'
-        'https://img.shields.io/badge/asm-6502-orange',
-        'https://img.shields.io/badge/asm-z80-orange',
-        'https://img.shields.io/badge/asm-8086-orange',
+        'https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=white',
+        'https://img.shields.io/badge/ASM-6502-e32dbf',
+        'https://img.shields.io/badge/ASM-z80-e32dbf',
+        'https://img.shields.io/badge/ASM-8086-e32dbf',
         'https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=fff',
         'https://img.shields.io/badge/-LaTeX-008080?logo=latex&logoColor=white',
         'https://img.shields.io/badge/Sphinx-F7C942?logo=sphinx&logoColor=white',
@@ -36,7 +36,7 @@ def main():
         'https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white',
         'https://img.shields.io/badge/Sublime%20Text-%23575757.svg?logo=sublime-text&logoColor=important',
         'https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white',
-        'https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=black',
+        'https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=white',
         'https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi',
     ]
 
