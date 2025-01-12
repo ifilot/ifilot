@@ -64,12 +64,19 @@ def main():
         'pico-flasher-cli',
     ])
 
+    osed_repositories = get_repo_data([
+        'opengl-cpp-course',
+        'hsl-pwdft-exercises',
+        'pwdft-lecture-notes',
+    ])
+
     # Define the data to pass to the template
     data = {
         'language_icons' : language_icons,
         'ccp_repositories' : ccp_repositories,
         'p2k_repositories' : p2k_repositories,
         'oshw_repositories' : oshw_repositories,
+        'osed_repositories' : osed_repositories,
     }
 
     # Render the template with the data
