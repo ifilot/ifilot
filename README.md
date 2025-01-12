@@ -31,7 +31,7 @@
 <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi" />
 </p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=14&layout=compact" /> <img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=8&layout=compact" />
 
 <h2>Computational chemistry projects</h2>
 <table width="100%">
@@ -82,6 +82,19 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/pytessel">pytessel</a><br>
+          <small style="color: gray;"><i>Python package for building isosurfaces from 3D scalar fields</i></small>
+      </td>
+      <td>C++, C</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 5
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 1
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 1
       </td>
     </tr>
     <tr>
@@ -165,6 +178,101 @@
   </tbody>
 </table>
 
+<h2>Open education</h2>
+<table width="100%">
+  <thead align="center">
+    <tr border: none;>
+      <td><b>Projects</b></td>
+      <td><b>Language(s)</b></td>
+      <td><b>Stars</b></td>
+      <td><b>Issues</b></td>
+      <td><b>Forks</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/opengl-cpp-course">opengl-cpp-course</a><br>
+          <small style="color: gray;"><i>Course to learn how to write OpenGL C++ programs</i></small>
+      </td>
+      <td>C++, CMake</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 22
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 5
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/hsl-pwdft-exercises">hsl-pwdft-exercises</a><br>
+          <small style="color: gray;"><i>Plane Wave Density Functional Theory Exercises for the Han-sur-Lesse Winterschool 2024</i></small>
+      </td>
+      <td>Python</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 1
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/pwdft-lecture-notes">pwdft-lecture-notes</a><br>
+          <small style="color: gray;"><i>Lecture notes on plane-wave density functional theory</i></small>
+      </td>
+      <td>TeX, Python</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 5
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 2
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 1
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Open source hardware/software</h2>
+<table width="100%">
+  <thead align="center">
+    <tr border: none;>
+      <td><b>Projects</b></td>
+      <td><b>Language(s)</b></td>
+      <td><b>Stars</b></td>
+      <td><b>Issues</b></td>
+      <td><b>Forks</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/pico-sst39sf0x0-programmer">pico-sst39sf0x0-programmer</a><br>
+          <small style="color: gray;"><i>PICO based flasher utility for SST39SF0x0 EEPROM chips</i></small>
+      </td>
+      <td>C++, C</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 9
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 1
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/pico-flasher-cli">pico-flasher-cli</a><br>
+          <small style="color: gray;"><i>Command line tool to interface with the SST39SF0x0 PICO Flasher</i></small>
+      </td>
+      <td>C++, CMake</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <h2>Retro computing</h2>
 
 <h3>Philips P2000T and P2000C</h3>
@@ -234,7 +342,7 @@
   </tbody>
 </table>
 
-<h2>Open source hardware/software</h2>
+<h3>8-bit games</h3>
 <table width="100%">
   <thead align="center">
     <tr border: none;>
@@ -248,64 +356,10 @@
   <tbody>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
-          <a href="https://github.com/ifilot/pico-sst39sf0x0-programmer">pico-sst39sf0x0-programmer</a><br>
-          <small style="color: gray;"><i>PICO based flasher utility for SST39SF0x0 EEPROM chips</i></small>
+          <a href="https://github.com/ifilot/cx16-kakuro">cx16-kakuro</a><br>
+          <small style="color: gray;"><i>Logic puzzle game for the Commander X16</i></small>
       </td>
-      <td>C++, C</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 9
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 1
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
-          <a href="https://github.com/ifilot/pico-flasher-cli">pico-flasher-cli</a><br>
-          <small style="color: gray;"><i>Command line tool to interface with the SST39SF0x0 PICO Flasher</i></small>
-      </td>
-      <td>C++, CMake</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2>Open education</h2>
-<table width="100%">
-  <thead align="center">
-    <tr border: none;>
-      <td><b>Projects</b></td>
-      <td><b>Language(s)</b></td>
-      <td><b>Stars</b></td>
-      <td><b>Issues</b></td>
-      <td><b>Forks</b></td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
-          <a href="https://github.com/ifilot/opengl-cpp-course">opengl-cpp-course</a><br>
-          <small style="color: gray;"><i>Course to learn how to write OpenGL C++ programs</i></small>
-      </td>
-      <td>C++, CMake</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 22
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 5
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
-          <a href="https://github.com/ifilot/hsl-pwdft-exercises">hsl-pwdft-exercises</a><br>
-          <small style="color: gray;"><i>Plane Wave Density Functional Theory Exercises for the Han-sur-Lesse Winterschool 2024</i></small>
-      </td>
-      <td>Python</td>
+      <td>C, Assembly</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 1
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
@@ -315,15 +369,28 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
-          <a href="https://github.com/ifilot/pwdft-lecture-notes">pwdft-lecture-notes</a><br>
-          <small style="color: gray;"><i>Lecture notes on plane-wave density functional theory</i></small>
+          <a href="https://github.com/ifilot/cx16-othello">cx16-othello</a><br>
+          <small style="color: gray;"><i>Commander X16 port of the venerable Othello (reversi) game</i></small>
       </td>
-      <td>TeX, Python</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 5
+      <td>C, Pascal</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 1
       </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 2
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 1
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/tetrix">tetrix</a><br>
+          <small style="color: gray;"><i>Tetris clone written in 8086/8088 assembly for IBM5150 and newer</i></small>
+      </td>
+      <td>Assembly, Makefile</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
       </td>
     </tr>
   </tbody>
