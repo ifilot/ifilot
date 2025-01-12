@@ -5,31 +5,33 @@
 <p>
 <img src="https://img.shields.io/badge/-C-blue?logo=c&logoColor=white" />
 <img src="https://img.shields.io/badge/-C++-blue?logo=cplusplus" />
-<img src="https://img.shields.io/badge/cMake-064F8C?&logo=cmake&logoColor=white" />
-<img src="https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54" />
-<img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff" />
-<img src="https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=white" />
 <img src="https://img.shields.io/badge/ASM-6502-e32dbf" />
 <img src="https://img.shields.io/badge/ASM-z80-e32dbf" />
 <img src="https://img.shields.io/badge/ASM-8086-e32dbf" />
+<img src="https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54" />
+<img src="https://img.shields.io/badge/Fortran-734F96?logo=fortran&logoColor=fff" />
+<img src="https://img.shields.io/badge/cMake-064F8C?&logo=cmake&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff" />
+<img src="https://img.shields.io/badge/cakephp-red?logo=cakephp&logoColor=white" />
 <img src="https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=fff" />
 <img src="https://img.shields.io/badge/-LaTeX-008080?logo=latex&logoColor=white" />
 <img src="https://img.shields.io/badge/Sphinx-F7C942?logo=sphinx&logoColor=white" />
 <img src="https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff" />
 <img src="https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white" />
+<img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?logo=jupyter&logoColor=white" />
 <img src="https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff" />
 <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
-<img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
+<img src="https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white" />
 <img src="https://img.shields.io/badge/Sublime%20Text-%23575757.svg?logo=sublime-text&logoColor=important" />
 <img src="https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white" />
+<img src="https://img.shields.io/badge/Shell-4EAA25?&style=plastic&logo=gnu-bash&logoColor=white" />
 <img src="https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=white" />
 <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi" />
 </p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide_progress=true" />
-<img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=14&layout=compact" /><img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" />
 
 <h2>Computational chemistry projects</h2>
 <table>
