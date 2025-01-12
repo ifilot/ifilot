@@ -10,9 +10,6 @@ def main():
         'templates')
     ))
 
-    # use token
-    token = sys.argv[1]
-
     # Load the template
     template = env.get_template('index.tpl')
 
@@ -43,20 +40,36 @@ def main():
         'https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi',
     ]
 
-    # fetch repo data
-    repositories = [
-        'hfcxx', 'dftcxx', 'edp', 'den2obj', 'pyqint', 'pydft', 'sphecerix', 'pypwdft'
-    ]
-    ccp_repositories = []
-    for repo in repositories:
-        res = fetch_github_repo_details('ifilot', repo, token)
-        res['languages'] = fetch_github_languages('ifilot', repo, token)[:2]
-        ccp_repositories.append(res)
+    ccp_repositories = get_repo_data([
+        'pyqint', 
+        'pydft', 
+        'pypwdft',
+        'hfcxx', 
+        'dftcxx', 
+        'edp', 
+        'den2obj', 
+        'sphecerix', 
+        'bramble'
+    ])
+
+    p2k_repositories = get_repo_data([
+        'p2000t-sdcard', 
+        'p2000t-cartridges',
+        'p2000t-cartridge-reader',
+        'p2000c-bytebridge-8086',
+    ])
+
+    oshw_repositories = get_repo_data([
+        'pico-sst39sf0x0-programmer',
+        'pico-flasher-cli',
+    ])
 
     # Define the data to pass to the template
     data = {
         'language_icons' : language_icons,
-        'ccp_repositories' : ccp_repositories
+        'ccp_repositories' : ccp_repositories,
+        'p2k_repositories' : p2k_repositories,
+        'oshw_repositories' : oshw_repositories,
     }
 
     # Render the template with the data
@@ -66,7 +79,25 @@ def main():
     with open("README.md", "w") as f:
         f.write(output)
 
+def get_repo_data(repositories):
+    """
+    Grab repository information by supplying repository names
+    """
+    # use token
+    token = sys.argv[1]
+
+    repos = []
+    for repo in repositories:
+        res = fetch_github_repo_details('ifilot', repo, token)
+        res['languages'] = fetch_github_languages('ifilot', repo, token)[:2]
+        repos.append(res)
+    return repos
+
 def fetch_github_repo_details(owner, repo, token):
+    """
+    Fetch repository information like number of stars, open issues, forks,
+    description and html link.
+    """
     url = f"https://api.github.com/repos/{owner}/{repo}"
     headers = {
         "Authorization": f"Bearer {token}",
@@ -94,6 +125,9 @@ def fetch_github_repo_details(owner, repo, token):
         raise Exception(f"Failed to fetch data: {response.status_code}")
 
 def fetch_github_languages(owner, repo, token=None):
+    """
+    Fetch dominant language of repository
+    """
     # Fetch languages from the GitHub API
     api_url = f"https://api.github.com/repos/{owner}/{repo}/languages"
     headers = {"Accept": "application/vnd.github.v3+json"}
