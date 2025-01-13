@@ -41,6 +41,7 @@ def main():
         'https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white',
         'https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=white',
         'https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi',
+        'https://img.shields.io/badge/Qt-green'
     ]
 
     ############################################################################
