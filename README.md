@@ -29,6 +29,7 @@
 <img src="https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white" />
 <img src="https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=white" />
 <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi" />
+<img src="https://img.shields.io/badge/Qt-green" />
 </p>
 
 <img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=8&layout=compact" />
@@ -435,7 +436,7 @@
           <a href="https://github.com/ifilot/p2000t-z80-ide">p2000t-z80-ide</a><br>
           <small style="color: gray;"><i>Integrated Desktop Environment for writing Z80 assembly programs for the P2000T</i></small>
       </td>
-      <td>C++, Python</td>
+      <td>C++, NSIS</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
