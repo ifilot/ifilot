@@ -62,7 +62,7 @@
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
           <a href="https://github.com/ifilot/pydft">pydft</a><br>
-          <small style="color: gray;"><i>Python based localized-orbital Density Functional Theory code for educational purposes. </i></small>
+          <small style="color: gray;"><i>Python-based localized-orbital Density Functional Theory code for educational purposes. </i></small>
       </td>
       <td>Python, Shell</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 4
