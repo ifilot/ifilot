@@ -100,6 +100,13 @@ def main():
     ])
 
     ############################################################################
+    # Other 8-bit consoles, handhelds and computers
+    ############################################################################
+    dev8bit_repositories = get_repo_data([
+        'gameboy-cartridge-reader',
+    ])  
+
+    ############################################################################
     # 8-bit games
     ############################################################################
     games8b_repositories = get_repo_data([
@@ -116,6 +123,7 @@ def main():
         'oshw_repositories' : oshw_repositories,
         'osed_repositories' : osed_repositories,
         'games8b_repositories' : games8b_repositories,
+        'dev8bit_repositories' : dev8bit_repositories,
     }
 
     # Render the template with the data
