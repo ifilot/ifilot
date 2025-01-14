@@ -115,6 +115,13 @@ def main():
         'tetrix',
     ])
 
+    ############################################################################
+    # Custom computer designs
+    ############################################################################
+    compdes_repositories = get_repo_data([
+        'sap-smd',
+    ])
+
     # Define the data to pass to the template
     data = {
         'language_icons' : language_icons,
@@ -124,6 +131,7 @@ def main():
         'osed_repositories' : osed_repositories,
         'games8b_repositories' : games8b_repositories,
         'dev8bit_repositories' : dev8bit_repositories,
+        'compdes_repositories' : compdes_repositories,
     }
 
     # Render the template with the data
