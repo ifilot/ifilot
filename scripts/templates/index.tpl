@@ -8,6 +8,13 @@
 {%- endfor %}
 </p>
 
+**Overview**
+
+* [Computational chemistry projects](#computational-chemistry-projects)
+* [Open education](#open-education)
+* [Open source hardware/software](#open-source-hardwaresoftware)
+* [Retro computing](#retro-computing)
+
 <img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=8&layout=compact" />
 
 <h2>Computational chemistry projects</h2>
@@ -113,6 +120,12 @@
 </table>
 
 <h2>Retro computing</h2>
+
+**Overview**
+
+* [Philips P2000T and P2000C](#philips-p2000t-and-p2000c)
+* [8-bit consoles, handhelds and computers](#8-bit-consoles-handhelds-and-computers)
+* [8-bit games](#8-bit-games)
 
 <h3>Philips P2000T and P2000C</h3>
 <table width="100%">
