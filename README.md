@@ -499,6 +499,34 @@
   </tbody>
 </table>
 
+<h3>8-bit consoles, handhelds and computers</h3>
+<table width="100%">
+  <thead align="center">
+    <tr border: none;>
+      <td><b>Projects</b></td>
+      <td><b>Language(s)</b></td>
+      <td><b>Stars</b></td>
+      <td><b>Issues</b></td>
+      <td><b>Forks</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/gameboy-cartridge-reader">gameboy-cartridge-reader</a><br>
+          <small style="color: gray;"><i>Gameboy Cartridge Reader based on the Atmega 32u4</i></small>
+      </td>
+      <td>C, C++</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <h3>8-bit games</h3>
 <table width="100%">
   <thead align="center">
