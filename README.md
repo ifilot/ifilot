@@ -412,7 +412,7 @@
           <small style="color: gray;"><i>SD-card cartridge for the P2000T</i></small>
       </td>
       <td>C, Assembly</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 2
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 3
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 4
       </td>
