@@ -71,9 +71,10 @@ def main():
     # P2000T / C Chemistry Projects
     ############################################################################
     p2k_repositories = get_repo_data([
-        'p2000t-sdcard', 
+        'p2000t-sdcard',
         'p2000t-cartridges',
         'p2000t-ram-expansion-board',
+        'p2000t-joystick-cartridge',
         'p2000t-cartridge-reader',
         'p2000t-z80-ide',
         'p2000t-scart-connector-pcb',
