@@ -460,6 +460,19 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/p2000t-joystick-cartridge">p2000t-joystick-cartridge</a><br>
+          <small style="color: gray;"><i>Philips P2000T SLOT2 cartridge to interface with Atari 2600-style joysticks</i></small>
+      </td>
+      <td>Python, Shell</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
           <a href="https://github.com/ifilot/p2000t-cartridge-reader">p2000t-cartridge-reader</a><br>
           <small style="color: gray;"><i>Arduino Leonardo based P2000T Cartridge Reader</i></small>
       </td>
