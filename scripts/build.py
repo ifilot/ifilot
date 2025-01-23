@@ -48,15 +48,15 @@ def main():
     # Computational Chemistry Projects
     ############################################################################
     ccp_repositories = get_repo_data([
-        'pyqint', 
-        'pydft', 
+        'pyqint',
+        'pydft',
         'pypwdft',
         'pytessel',
-        'hfcxx', 
-        'dftcxx', 
-        'edp', 
-        'den2obj', 
-        'sphecerix', 
+        'hfcxx',
+        'dftcxx',
+        'edp',
+        'den2obj',
+        'sphecerix',
         'bramble',
         'wavefuse',
         'turing',
@@ -64,6 +64,7 @@ def main():
         'atom-architect',
         'den2bin',
         'ppmil',
+	'managlyph',
     ])
 
     ############################################################################
