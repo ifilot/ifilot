@@ -122,6 +122,7 @@ def main():
     ############################################################################
     compdes_repositories = get_repo_data([
         'sap-smd',
+	'bytecradle-6502',
     ])
 
     # Define the data to pass to the template
