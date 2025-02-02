@@ -592,6 +592,19 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
       </td>
     </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/bytecradle-6502">bytecradle-6502</a><br>
+          <small style="color: gray;"><i>Homebrew 6502-based computer</i></small>
+      </td>
+      <td>C, Assembly</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
   </tbody>
 </table>
 
