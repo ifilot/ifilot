@@ -597,7 +597,7 @@
           <a href="https://github.com/ifilot/bytecradle-6502">bytecradle-6502</a><br>
           <small style="color: gray;"><i>Homebrew 6502-based computer</i></small>
       </td>
-      <td>Propeller Spin, C</td>
+      <td>Propeller Spin, Assembly</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
