@@ -202,7 +202,7 @@
           <small style="color: gray;"><i>C++ script to generate Turing patterns</i></small>
       </td>
       <td>C++, CMake</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 10
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 11
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
