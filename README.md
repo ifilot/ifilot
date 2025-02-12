@@ -59,7 +59,7 @@
           <small style="color: gray;"><i>Python package for evaluating integrals of Gaussian type orbitals in electronic structure calculations</i></small>
       </td>
       <td>Python, C++</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 26
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 27
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
@@ -111,7 +111,7 @@
           <small style="color: gray;"><i>Hartree-Fock C++ code</i></small>
       </td>
       <td>C++, C</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 29
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 30
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
@@ -124,7 +124,7 @@
           <small style="color: gray;"><i>C++ based DFT program for educational purposes</i></small>
       </td>
       <td>C++, CMake</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 57
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 58
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
