@@ -585,7 +585,7 @@
           <small style="color: gray;"><i>Modular 8-bit computer built with TTL logic units to create a "Simple as Possible" system</i></small>
       </td>
       <td>Python, C++</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 1
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
