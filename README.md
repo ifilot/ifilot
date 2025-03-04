@@ -30,6 +30,7 @@
 <img src="https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=white" />
 <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=Raspberry-Pi" />
 <img src="https://img.shields.io/badge/Qt-green" />
+<img src="https://img.shields.io/badge/CUPL-grey" />
 </p>
 
 **Overview**
