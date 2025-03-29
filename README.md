@@ -164,7 +164,7 @@
           <small style="color: gray;"><i>Rotation of spherical harmonics using Wigner-D matrices</i></small>
       </td>
       <td>Python, Shell</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 15
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 16
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
