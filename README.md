@@ -451,7 +451,7 @@
           <a href="https://github.com/ifilot/p2000t-ram-expansion-board">p2000t-ram-expansion-board</a><br>
           <small style="color: gray;"><i>RAM expansion board for the P2000T</i></small>
       </td>
-      <td>C, Assembly</td>
+      <td>C, Batchfile</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 1
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
