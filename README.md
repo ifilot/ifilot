@@ -60,7 +60,7 @@
           <small style="color: gray;"><i>Python package for evaluating integrals of Gaussian type orbitals in electronic structure calculations</i></small>
       </td>
       <td>Python, C++</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 28
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 29
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
@@ -348,7 +348,7 @@
           <small style="color: gray;"><i>Hartree-Fock Course for Han-sur-Lesse 2017</i></small>
       </td>
       <td>C++, Makefile</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 4
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 5
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
