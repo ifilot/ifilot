@@ -96,6 +96,7 @@ def main():
     ############################################################################
     osed_repositories = get_repo_data([
         'opengl-cpp-course',
+	'electronic-structure-interactive-notebooks',
         'hsl-pwdft-exercises',
         'pwdft-lecture-notes',
         'hfhsl2021',
