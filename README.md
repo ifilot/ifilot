@@ -305,6 +305,19 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/electronic-structure-interactive-notebooks">electronic-structure-interactive-notebooks</a><br>
+          <small style="color: gray;"><i>Series of Jupyter Notebooks with demos related to Electronic Structure calculations</i></small>
+      </td>
+      <td>Jupyter Notebook</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
           <a href="https://github.com/ifilot/hsl-pwdft-exercises">hsl-pwdft-exercises</a><br>
           <small style="color: gray;"><i>Plane Wave Density Functional Theory Exercises for the Han-sur-Lesse Winterschool 2024</i></small>
       </td>
