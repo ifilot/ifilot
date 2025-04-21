@@ -306,7 +306,7 @@
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
           <a href="https://github.com/ifilot/electronic-structure-interactive-notebooks">electronic-structure-interactive-notebooks</a><br>
-          <small style="color: gray;"><i>Series of Jupyter Notebooks with demos related to Electronic Structure calculations</i></small>
+          <small style="color: gray;"><i>Educational Jupyter notebooks demonstrating electronic structure calculations from Elements of Electronic Structure Theory</i></small>
       </td>
       <td>Jupyter Notebook</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
