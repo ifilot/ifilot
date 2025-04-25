@@ -57,7 +57,7 @@
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
           <a href="https://github.com/ifilot/pyqint">pyqint</a><br>
-          <small style="color: gray;"><i>Python package for evaluating integrals of Gaussian type orbitals in electronic structure calculations</i></small>
+          <small style="color: gray;"><i>An Educational Hartree-Fock Code in Python: Transparent Implementation of Gaussian-Type Integrals, SCF Procedures, and Geometry Optimization</i></small>
       </td>
       <td>Python, C++</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 29
