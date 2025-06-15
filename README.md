@@ -73,7 +73,7 @@
           <small style="color: gray;"><i>Python-based localized-orbital Density Functional Theory code for educational purposes. </i></small>
       </td>
       <td>Python, Shell</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 7
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 8
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
