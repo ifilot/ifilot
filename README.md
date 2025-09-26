@@ -348,7 +348,7 @@
           <small style="color: gray;"><i>Exercises for the Hartree-Fock Workshop for the Han-sur-Lesse Winterschool of 2021</i></small>
       </td>
       <td>Python</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 5
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 6
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
