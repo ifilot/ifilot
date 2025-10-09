@@ -216,7 +216,7 @@
           <small style="color: gray;"><i>Python Library for Lebedev Quadrature points and weights</i></small>
       </td>
       <td>Python, Shell</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 8
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 9
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 1
       </td>
