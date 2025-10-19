@@ -578,6 +578,19 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
       </td>
     </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/slot-otter">slot-otter</a><br>
+          <small style="color: gray;"><i>8-bit ISA card to interface with a FAT32 formatted SD card</i></small>
+      </td>
+      <td>C, Assembly</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
   </tbody>
 </table>
 
