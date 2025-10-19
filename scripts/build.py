@@ -108,6 +108,7 @@ def main():
     ############################################################################
     dev8bit_repositories = get_repo_data([
         'gameboy-cartridge-reader',
+		'slot-otter',
     ])  
 
     ############################################################################
@@ -230,3 +231,4 @@ def fetch_github_languages(owner, repo, token=None):
 
 if __name__ == '__main__':
     main()
+
