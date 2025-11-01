@@ -296,7 +296,7 @@
           <small style="color: gray;"><i>Course to learn how to write OpenGL C++ programs</i></small>
       </td>
       <td>C++, CMake</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 27
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 28
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
