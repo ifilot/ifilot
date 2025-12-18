@@ -58,6 +58,7 @@ def main():
         'edp',
         'den2obj',
         'sphecerix',
+		'pymodia',
         'bramble',
         'wavefuse',
         'turing',
@@ -65,7 +66,7 @@ def main():
         'atom-architect',
         'den2bin',
         'ppmil',
-	'managlyph',
+		'managlyph',
     ])
 
     ############################################################################
@@ -231,4 +232,5 @@ def fetch_github_languages(owner, repo, token=None):
 
 if __name__ == '__main__':
     main()
+
 
