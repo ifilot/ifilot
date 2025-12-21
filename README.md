@@ -96,7 +96,7 @@
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
           <a href="https://github.com/ifilot/pytessel">pytessel</a><br>
-          <small style="color: gray;"><i>Python package for building isosurfaces from 3D scalar fields</i></small>
+          <small style="color: gray;"><i>PyTessel is a Python package for tessellating 3D scalar fields into isosurfaces via the marching cubes algorithm, suitable for scientific visualization and mesh generation.</i></small>
       </td>
       <td>C++, C</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 5
