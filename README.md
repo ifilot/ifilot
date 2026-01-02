@@ -203,7 +203,7 @@
           <small style="color: gray;"><i>Gray-Scott reaction-diffusion system in 3D using CUDA</i></small>
       </td>
       <td>C, C++</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 11
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 12
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
