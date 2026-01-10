@@ -15,7 +15,7 @@
 * [Open source hardware/software](#open-source-hardwaresoftware)
 * [Retro computing](#retro-computing)
 
-<img src="https://github-readme-stats.vercel.app/api?username=ifilot&show_icons=true" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=8&layout=compact" />
+<img src="https://github-readme-stats-fast.vercel.app/api?username=ifilot&show_icons=true" /> <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=8&layout=compact" />
 
 <h2>Computational chemistry projects</h2>
 <table width="100%">
@@ -262,4 +262,5 @@
     </tr>
   {%- endfor %}
   </tbody>
+
 </table>
