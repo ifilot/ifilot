@@ -67,6 +67,7 @@ def main():
         'den2bin',
         'ppmil',
 		'managlyph',
+		'abobuilder',
     ])
 
     ############################################################################
@@ -97,7 +98,9 @@ def main():
     ############################################################################
     osed_repositories = get_repo_data([
         'opengl-cpp-course',
-	'electronic-structure-interactive-notebooks',
+		'managlyph',
+		'lennard-jones-live-simulator',
+	    'electronic-structure-interactive-notebooks',
         'hsl-pwdft-exercises',
         'pwdft-lecture-notes',
         'hfhsl2021',
@@ -232,5 +235,6 @@ def fetch_github_languages(owner, repo, token=None):
 
 if __name__ == '__main__':
     main()
+
 
 
