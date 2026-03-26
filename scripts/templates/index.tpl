@@ -133,30 +133,7 @@
   </tbody>
 </table>
 
-<h2>Retro computing</h2>
-
-**Overview**
-
-<table width="100%">
-  <thead align="center">
-    <tr border: none;>
-      <td><b>Category</b></td>
-      <td><b>Total repositories</b></td>
-      <td><b>Total stars</b></td>
-    </tr>
-  </thead>
-  <tbody>
-  {%- for category in retro_category_stats %}
-    <tr>
-      <td><a href="#{{ category.anchor }}">{{ category.name }}</a></td>
-      <td align="center">{{ category.repositories }}</td>
-      <td align="center">{{ category.stars }}</td>
-    </tr>
-  {%- endfor %}
-  </tbody>
-</table>
-
-<h3>Philips P2000T and P2000C</h3>
+<h2>Retro-computing</h2>
 <table width="100%">
   <thead align="center">
     <tr border: none;>
@@ -168,7 +145,7 @@
     </tr>
   </thead>
   <tbody>
-  {%- for repo in p2k_repositories %}
+  {%- for repo in retro_computing %}
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
           <a href="{{ repo.link }}">{{ repo.repo }}</a><br>
@@ -188,107 +165,4 @@
     </tr>
   {%- endfor %}
   </tbody>
-</table>
-
-<h3>8-bit consoles, handhelds and computers</h3>
-<table width="100%">
-  <thead align="center">
-    <tr border: none;>
-      <td><b>Projects</b></td>
-      <td><b>Language(s)</b></td>
-      <td><b>Stars</b></td>
-      <td><b>Issues</b></td>
-      <td><b>Forks</b></td>
-    </tr>
-  </thead>
-  <tbody>
-  {%- for repo in dev8bit_repositories %}
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
-          <a href="{{ repo.link }}">{{ repo.repo }}</a><br>
-          <small style="color: gray;"><i>{{ repo.description }}</i></small>
-      </td>
-      <td>
-        {%- for lang in repo.languages -%}
-            {{ lang.language }}{% if not loop.last %}, {% endif %}
-        {%- endfor -%}
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> {{ repo.stars }}
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> {{ repo.issues }}
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> {{ repo.forks }}
-      </td>
-    </tr>
-  {%- endfor %}
-  </tbody>
-</table>
-
-<h3>Homebrew computer designs</h3>
-<table width="100%">
-  <thead align="center">
-    <tr border: none;>
-      <td><b>Projects</b></td>
-      <td><b>Language(s)</b></td>
-      <td><b>Stars</b></td>
-      <td><b>Issues</b></td>
-      <td><b>Forks</b></td>
-    </tr>
-  </thead>
-  <tbody>
-  {%- for repo in compdes_repositories %}
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
-          <a href="{{ repo.link }}">{{ repo.repo }}</a><br>
-          <small style="color: gray;"><i>{{ repo.description }}</i></small>
-      </td>
-      <td>
-        {%- for lang in repo.languages -%}
-            {{ lang.language }}{% if not loop.last %}, {% endif %}
-        {%- endfor -%}
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> {{ repo.stars }}
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> {{ repo.issues }}
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> {{ repo.forks }}
-      </td>
-    </tr>
-  {%- endfor %}
-  </tbody>
-</table>
-
-<h3>8-bit games</h3>
-<table width="100%">
-  <thead align="center">
-    <tr border: none;>
-      <td><b>Projects</b></td>
-      <td><b>Language(s)</b></td>
-      <td><b>Stars</b></td>
-      <td><b>Issues</b></td>
-      <td><b>Forks</b></td>
-    </tr>
-  </thead>
-  <tbody>
-  {%- for repo in games8b_repositories %}
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
-          <a href="{{ repo.link }}">{{ repo.repo }}</a><br>
-          <small style="color: gray;"><i>{{ repo.description }}</i></small>
-      </td>
-      <td>
-        {%- for lang in repo.languages -%}
-            {{ lang.language }}{% if not loop.last %}, {% endif %}
-        {%- endfor -%}
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> {{ repo.stars }}
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> {{ repo.issues }}
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> {{ repo.forks }}
-      </td>
-    </tr>
-  {%- endfor %}
-  </tbody>
-
 </table>

@@ -44,18 +44,13 @@ def main():
     ])
 
     ############################################################################
-    # P2000T / C Chemistry Projects
+    # Open source education
     ############################################################################
-    p2k_repositories = get_repo_data([
-        'p2000t-sdcard',
-        'p2000t-cartridges',
-        'p2000t-ram-expansion-board',
-        'p2000t-joystick-cartridge',
-        'p2000t-cartridge-reader',
-        'p2000t-z80-ide',
-        'p2000t-scart-connector-pcb',
-        'p2000c-bytebridge-8086',
-        'P2000T-SD-kaart-handleiding',
+    osed_repositories = get_repo_data([
+        'opengl-cpp-course',
+		'managlyph',
+		'lennard-jones-live-simulator',
+        'pwdft-lecture-notes',
     ])
 
     ############################################################################
@@ -64,16 +59,6 @@ def main():
     oshw_repositories = get_repo_data([
         'pico-sst39sf0x0-programmer',
         'pico-flasher-cli',
-    ])
-
-    ############################################################################
-    # Open source education
-    ############################################################################
-    osed_repositories = get_repo_data([
-        'opengl-cpp-course',
-		'managlyph',
-		'lennard-jones-live-simulator',
-        'pwdft-lecture-notes',
     ])
 
     ############################################################################
@@ -87,25 +72,12 @@ def main():
         'cx16-othello',
     ])
 
-    # Define the data to pass to the template
-    high_level_category_stats = [
-        build_category_stats('Computational chemistry projects', 'computational-chemistry-projects', ccp_repositories),
-        build_category_stats('Open education', 'open-education', osed_repositories),
-        build_category_stats('Open source hardware/software', 'open-source-hardwaresoftware', oshw_repositories),
-        build_category_stats('Retro computing', 'retro-computing', retro_computing),
-    ]
-
     data = {
         'language_icons' : language_icons,
         'ccp_repositories' : ccp_repositories,
-        'p2k_repositories' : p2k_repositories,
-        'oshw_repositories' : oshw_repositories,
         'osed_repositories' : osed_repositories,
-        'games8b_repositories' : games8b_repositories,
-        'dev8bit_repositories' : dev8bit_repositories,
-        'compdes_repositories' : compdes_repositories,
-        'high_level_category_stats': high_level_category_stats,
-        'retro_category_stats': retro_category_stats,
+        'oshw_repositories' : oshw_repositories,
+        'retro_computing' : retro_computing,
     }
 
     # Render the template with the data
