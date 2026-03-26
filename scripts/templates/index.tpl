@@ -8,27 +8,6 @@
 {%- endfor %}
 </p>
 
-**Overview**
-
-<table width="100%">
-  <thead align="center">
-    <tr border: none;>
-      <td><b>Category</b></td>
-      <td><b>Total repositories</b></td>
-      <td><b>Total stars</b></td>
-    </tr>
-  </thead>
-  <tbody>
-  {%- for category in high_level_category_stats %}
-    <tr>
-      <td><a href="#{{ category.anchor }}">{{ category.name }}</a></td>
-      <td align="center">{{ category.repositories }}</td>
-      <td align="center">{{ category.stars }}</td>
-    </tr>
-  {%- endfor %}
-  </tbody>
-</table>
-
 <img src="https://github-readme-stats-fast.vercel.app/api?username=ifilot&show_icons=true" /> <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=8&layout=compact" />
 
 <h2>Computational chemistry projects</h2>
@@ -166,3 +145,6 @@
   {%- endfor %}
   </tbody>
 </table>
+
+<hr>
+<p align="center"><i>This page is generated every 6 hours.</i></p>
