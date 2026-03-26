@@ -26,7 +26,6 @@ def main():
         'https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&logoColor=white',
         'https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff',
         'https://img.shields.io/badge/Qt-green',
-	'https://img.shields.io/badge/CUPL-grey'
     ]
 
     ############################################################################
