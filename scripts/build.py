@@ -147,7 +147,7 @@ def fetch_github_repo_details(owner, repo, token):
             "repo": repo,
         }
     else:
-        raise Exception(f"Failed to fetch data: {response.status_code}")
+        raise Exception(f"Failed to fetch data: {response.status_code} ({owner}/{repo})")
 
 def fetch_github_languages(owner, repo, token=None):
     """
