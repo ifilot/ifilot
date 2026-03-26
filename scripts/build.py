@@ -65,7 +65,7 @@ def main():
     # Retro computing
     ############################################################################
     retro_computing = get_repo_data([
-        'bytecradle-6502'
+        'bytecradle-6502',
 		'slot-otter',
         'cx16-kakuro',
         'cx16-othello',
