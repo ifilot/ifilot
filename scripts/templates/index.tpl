@@ -10,10 +10,24 @@
 
 **Overview**
 
-* [Computational chemistry projects](#computational-chemistry-projects)
-* [Open education](#open-education)
-* [Open source hardware/software](#open-source-hardwaresoftware)
-* [Retro computing](#retro-computing)
+<table width="100%">
+  <thead align="center">
+    <tr border: none;>
+      <td><b>Category</b></td>
+      <td><b>Total repositories</b></td>
+      <td><b>Total stars</b></td>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for category in high_level_category_stats %}
+    <tr>
+      <td><a href="#{{ category.anchor }}">{{ category.name }}</a></td>
+      <td align="center">{{ category.repositories }}</td>
+      <td align="center">{{ category.stars }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
 
 <img src="https://github-readme-stats-fast.vercel.app/api?username=ifilot&show_icons=true" /> <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=8&layout=compact" />
 
@@ -31,7 +45,7 @@
   <tbody>
   {%- for repo in ccp_repositories %}
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
           <a href="{{ repo.link }}">{{ repo.repo }}</a><br>
           <small style="color: gray;"><i>{{ repo.description }}</i></small>
       </td>
@@ -99,7 +113,7 @@
   <tbody>
   {%- for repo in oshw_repositories %}
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
           <a href="{{ repo.link }}">{{ repo.repo }}</a><br>
           <small style="color: gray;"><i>{{ repo.description }}</i></small>
       </td>
@@ -123,10 +137,24 @@
 
 **Overview**
 
-* [Philips P2000T and P2000C](#philips-p2000t-and-p2000c)
-* [8-bit consoles, handhelds and computers](#8-bit-consoles-handhelds-and-computers)
-* [Homebrew computer designs](#homebrew-computer-designs)
-* [8-bit games](#8-bit-games)
+<table width="100%">
+  <thead align="center">
+    <tr border: none;>
+      <td><b>Category</b></td>
+      <td><b>Total repositories</b></td>
+      <td><b>Total stars</b></td>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for category in retro_category_stats %}
+    <tr>
+      <td><a href="#{{ category.anchor }}">{{ category.name }}</a></td>
+      <td align="center">{{ category.repositories }}</td>
+      <td align="center">{{ category.stars }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
 
 <h3>Philips P2000T and P2000C</h3>
 <table width="100%">
@@ -142,7 +170,7 @@
   <tbody>
   {%- for repo in p2k_repositories %}
     <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
           <a href="{{ repo.link }}">{{ repo.repo }}</a><br>
           <small style="color: gray;"><i>{{ repo.description }}</i></small>
       </td>

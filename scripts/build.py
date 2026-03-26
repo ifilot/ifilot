@@ -39,14 +39,8 @@ def main():
         'sphecerix',
 		'pymodia',
         'bramble',
-        'wavefuse',
-        'turing',
         'pylebedev',
         'atom-architect',
-        'den2bin',
-        'ppmil',
-		'managlyph',
-		'abobuilder',
     ])
 
     ############################################################################
@@ -79,39 +73,28 @@ def main():
         'opengl-cpp-course',
 		'managlyph',
 		'lennard-jones-live-simulator',
-	    'electronic-structure-interactive-notebooks',
-        'hsl-pwdft-exercises',
         'pwdft-lecture-notes',
-        'hfhsl2021',
-        'hfhsl',
     ])
 
     ############################################################################
-    # Other 8-bit consoles, handhelds and computers
+    # Retro computing
     ############################################################################
-    dev8bit_repositories = get_repo_data([
-        'gameboy-cartridge-reader',
+    retro_computing = get_repo_data([
+        'bytecradle-6502'
 		'slot-otter',
-    ])  
-
-    ############################################################################
-    # 8-bit games
-    ############################################################################
-    games8b_repositories = get_repo_data([
+        'gameboy-cartridge-reader',
         'cx16-kakuro',
         'cx16-othello',
-        'tetrix',
-    ])
-
-    ############################################################################
-    # Custom computer designs
-    ############################################################################
-    compdes_repositories = get_repo_data([
-        'sap-smd',
-	'bytecradle-6502',
     ])
 
     # Define the data to pass to the template
+    high_level_category_stats = [
+        build_category_stats('Computational chemistry projects', 'computational-chemistry-projects', ccp_repositories),
+        build_category_stats('Open education', 'open-education', osed_repositories),
+        build_category_stats('Open source hardware/software', 'open-source-hardwaresoftware', oshw_repositories),
+        build_category_stats('Retro computing', 'retro-computing', retro_computing),
+    ]
+
     data = {
         'language_icons' : language_icons,
         'ccp_repositories' : ccp_repositories,
@@ -121,6 +104,8 @@ def main():
         'games8b_repositories' : games8b_repositories,
         'dev8bit_repositories' : dev8bit_repositories,
         'compdes_repositories' : compdes_repositories,
+        'high_level_category_stats': high_level_category_stats,
+        'retro_category_stats': retro_category_stats,
     }
 
     # Render the template with the data
@@ -143,6 +128,23 @@ def get_repo_data(repositories):
         res['languages'] = fetch_github_languages('ifilot', repo, token)[:2]
         repos.append(res)
     return repos
+
+def build_category_stats(name, anchor, repositories):
+    """
+    Build summary statistics for one category.
+    """
+    return {
+        "name": name,
+        "anchor": anchor,
+        "repositories": len(repositories),
+        "stars": sum(repo.get("stars", 0) for repo in repositories),
+    }
+
+def aggregate_repositories(*repository_groups):
+    """
+    Merge multiple repository lists into one.
+    """
+    return [repo for group in repository_groups for repo in group]
 
 def fetch_github_repo_details(owner, repo, token):
     """
