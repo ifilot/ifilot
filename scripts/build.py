@@ -92,7 +92,7 @@ def main():
     dev8bit_repositories = get_repo_data([
         'gameboy-cartridge-reader',
 		'slot-otter',
-    ])  
+    ])
 
     ############################################################################
     # 8-bit games
@@ -112,6 +112,13 @@ def main():
     ])
 
     # Define the data to pass to the template
+    retro_category_stats = [
+        build_category_stats('Philips P2000T and P2000C', 'philips-p2000t-and-p2000c', p2k_repositories),
+        build_category_stats('8-bit consoles, handhelds and computers', '8-bit-consoles-handhelds-and-computers', dev8bit_repositories),
+        build_category_stats('Homebrew computer designs', 'homebrew-computer-designs', compdes_repositories),
+        build_category_stats('8-bit games', '8-bit-games', games8b_repositories),
+    ]
+
     data = {
         'language_icons' : language_icons,
         'ccp_repositories' : ccp_repositories,
@@ -121,6 +128,7 @@ def main():
         'games8b_repositories' : games8b_repositories,
         'dev8bit_repositories' : dev8bit_repositories,
         'compdes_repositories' : compdes_repositories,
+        'retro_category_stats': retro_category_stats,
     }
 
     # Render the template with the data
@@ -143,6 +151,17 @@ def get_repo_data(repositories):
         res['languages'] = fetch_github_languages('ifilot', repo, token)[:2]
         repos.append(res)
     return repos
+
+def build_category_stats(name, anchor, repositories):
+    """
+    Build summary statistics for one category.
+    """
+    return {
+        "name": name,
+        "anchor": anchor,
+        "repositories": len(repositories),
+        "stars": sum(repo.get("stars", 0) for repo in repositories),
+    }
 
 def fetch_github_repo_details(owner, repo, token):
     """
