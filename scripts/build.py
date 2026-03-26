@@ -99,6 +99,10 @@ def get_repo_data(repositories):
         res = fetch_github_repo_details('ifilot', repo, token)
         res['languages'] = fetch_github_languages('ifilot', repo, token)[:2]
         repos.append(res)
+
+    # sort by stars
+    repos.sort(key=lambda r: r.get("stars", 0), reverse=True)
+
     return repos
 
 def build_category_stats(name, anchor, repositories):
