@@ -12,20 +12,6 @@
 <img src="https://img.shields.io/badge/Qt-green" />
 </p>
 
-**Overview**
-
-<table width="100%">
-  <thead align="center">
-    <tr border: none;>
-      <td><b>Category</b></td>
-      <td><b>Total repositories</b></td>
-      <td><b>Total stars</b></td>
-    </tr>
-  </thead>
-  <tbody>
-  </tbody>
-</table>
-
 <img src="https://github-readme-stats-fast.vercel.app/api?username=ifilot&show_icons=true" /> <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ifilot&hide=logos&langs_count=8&layout=compact" />
 
 <h2>Computational chemistry projects</h2>
@@ -42,71 +28,6 @@
   <tbody>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/pyqint">pyqint</a><br>
-          <small style="color: gray;"><i>An Educational Hartree-Fock Code in Python: Transparent Implementation of Gaussian-Type Integrals, SCF Procedures, and Geometry Optimization</i></small>
-      </td>
-      <td>Python, C++</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 58
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 2
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 14
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/pydft">pydft</a><br>
-          <small style="color: gray;"><i>Python-based localized-orbital Density Functional Theory code for educational purposes. </i></small>
-      </td>
-      <td>Python, Shell</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 20
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 4
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/pypwdft">pypwdft</a><br>
-          <small style="color: gray;"><i>Python-based plane wave density functional theory code for educational purposes</i></small>
-      </td>
-      <td>Python, Shell</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 33
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 3
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/pytessel">pytessel</a><br>
-          <small style="color: gray;"><i>PyTessel is a Python package for tessellating 3D scalar fields into isosurfaces via the marching cubes algorithm, suitable for scientific visualization and mesh generation.</i></small>
-      </td>
-      <td>C++, C</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 5
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 1
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/hfcxx">hfcxx</a><br>
-          <small style="color: gray;"><i>Hartree-Fock C++ code</i></small>
-      </td>
-      <td>C++, C</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 35
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 16
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
           <a href="https://github.com/ifilot/dftcxx">dftcxx</a><br>
           <small style="color: gray;"><i>C++ based DFT program for educational purposes</i></small>
       </td>
@@ -116,6 +37,19 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 11
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
+          <a href="https://github.com/ifilot/pyqint">pyqint</a><br>
+          <small style="color: gray;"><i>An Educational Hartree-Fock Code in Python: Transparent Implementation of Gaussian-Type Integrals, SCF Procedures, and Geometry Optimization</i></small>
+      </td>
+      <td>Python, C++</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 58
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 2
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 14
       </td>
     </tr>
     <tr>
@@ -133,15 +67,41 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/den2obj">den2obj</a><br>
-          <small style="color: gray;"><i>Generate isosurface from density data</i></small>
+          <a href="https://github.com/ifilot/hfcxx">hfcxx</a><br>
+          <small style="color: gray;"><i>Hartree-Fock C++ code</i></small>
       </td>
       <td>C++, C</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 14
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 35
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 16
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
+          <a href="https://github.com/ifilot/pypwdft">pypwdft</a><br>
+          <small style="color: gray;"><i>Python-based plane wave density functional theory code for educational purposes</i></small>
+      </td>
+      <td>Python, Shell</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 33
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 3
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
+          <a href="https://github.com/ifilot/pydft">pydft</a><br>
+          <small style="color: gray;"><i>Python-based localized-orbital Density Functional Theory code for educational purposes. </i></small>
+      </td>
+      <td>Python, Shell</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 20
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 4
       </td>
     </tr>
     <tr>
@@ -159,11 +119,37 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/pymodia">pymodia</a><br>
-          <small style="color: gray;"><i>Python package for visualizing molecular orbital diagrams</i></small>
+          <a href="https://github.com/ifilot/den2obj">den2obj</a><br>
+          <small style="color: gray;"><i>Generate isosurface from density data</i></small>
       </td>
-      <td>Python</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 3
+      <td>C++, C</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 14
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 3
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
+          <a href="https://github.com/ifilot/pylebedev">pylebedev</a><br>
+          <small style="color: gray;"><i>Python Library for Lebedev Quadrature points and weights</i></small>
+      </td>
+      <td>Python, Shell</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 9
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 1
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
+          <a href="https://github.com/ifilot/pytessel">pytessel</a><br>
+          <small style="color: gray;"><i>PyTessel is a Python package for tessellating 3D scalar fields into isosurfaces via the marching cubes algorithm, suitable for scientific visualization and mesh generation.</i></small>
+      </td>
+      <td>C++, C</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 5
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
@@ -185,15 +171,15 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/pylebedev">pylebedev</a><br>
-          <small style="color: gray;"><i>Python Library for Lebedev Quadrature points and weights</i></small>
+          <a href="https://github.com/ifilot/pymodia">pymodia</a><br>
+          <small style="color: gray;"><i>Python package for visualizing molecular orbital diagrams</i></small>
       </td>
-      <td>Python, Shell</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 9
+      <td>Python</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 3
       </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 1
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 1
       </td>
     </tr>
     <tr>
@@ -239,6 +225,19 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
+          <a href="https://github.com/ifilot/pwdft-lecture-notes">pwdft-lecture-notes</a><br>
+          <small style="color: gray;"><i>Lecture notes on plane-wave density functional theory</i></small>
+      </td>
+      <td>TeX, Python</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 7
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 2
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 1
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
           <a href="https://github.com/ifilot/managlyph">managlyph</a><br>
           <small style="color: gray;"><i>Stereographic rendering program for atomic systems</i></small>
       </td>
@@ -261,19 +260,6 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" /> 
-          <a href="https://github.com/ifilot/pwdft-lecture-notes">pwdft-lecture-notes</a><br>
-          <small style="color: gray;"><i>Lecture notes on plane-wave density functional theory</i></small>
-      </td>
-      <td>TeX, Python</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 7
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 2
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 1
       </td>
     </tr>
   </tbody>
@@ -347,19 +333,6 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/slot-otter">slot-otter</a><br>
-          <small style="color: gray;"><i>8-bit ISA card to interface with a FAT32 formatted SD card</i></small>
-      </td>
-      <td>Assembly, C</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
           <a href="https://github.com/ifilot/cx16-kakuro">cx16-kakuro</a><br>
           <small style="color: gray;"><i>Logic puzzle game for the Commander X16</i></small>
       </td>
@@ -397,5 +370,21 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
       </td>
     </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
+          <a href="https://github.com/ifilot/slot-otter">slot-otter</a><br>
+          <small style="color: gray;"><i>8-bit ISA card to interface with a FAT32 formatted SD card</i></small>
+      </td>
+      <td>Assembly, C</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
   </tbody>
 </table>
+
+<hr>
+<p align="center"><i>This page is generated every 6 hours.</i></p>
