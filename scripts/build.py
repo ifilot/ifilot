@@ -67,9 +67,9 @@ def main():
     retro_computing = get_repo_data([
         'bytecradle-6502'
 		'slot-otter',
-        'gameboy-cartridge-reader',
         'cx16-kakuro',
         'cx16-othello',
+        'gameboy-cartridge-reader',
     ])
 
     data = {
@@ -188,6 +188,3 @@ def fetch_github_languages(owner, repo, token=None):
 
 if __name__ == '__main__':
     main()
-
-
-
