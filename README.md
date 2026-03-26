@@ -14,7 +14,6 @@
 <img src="https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff" />
 <img src="https://img.shields.io/badge/Qt-green" />
-<img src="https://img.shields.io/badge/CUPL-grey" />
 </p>
 
 **Overview**
