@@ -67,19 +67,6 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/hfcxx">hfcxx</a><br>
-          <small style="color: gray;"><i>Hartree-Fock C++ code</i></small>
-      </td>
-      <td>C++, C</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 34
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 16
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
           <a href="https://github.com/ifilot/pypwdft">pypwdft</a><br>
           <small style="color: gray;"><i>Python-based plane wave density functional theory code for educational purposes</i></small>
       </td>
@@ -89,6 +76,19 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 3
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
+          <a href="https://github.com/ifilot/hfcxx">hfcxx</a><br>
+          <small style="color: gray;"><i>Hartree-Fock C++ code</i></small>
+      </td>
+      <td>C++, C</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 32
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 16
       </td>
     </tr>
     <tr>
