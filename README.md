@@ -32,7 +32,7 @@
           <small style="color: gray;"><i>C++ based DFT program for educational purposes</i></small>
       </td>
       <td>C++, CMake</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 63
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 62
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
@@ -84,7 +84,7 @@
           <small style="color: gray;"><i>Hartree-Fock C++ code</i></small>
       </td>
       <td>C++, C</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 33
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 32
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
