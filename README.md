@@ -96,10 +96,10 @@
           <a href="https://github.com/ifilot/pydft">pydft</a><br>
           <small style="color: gray;"><i>Python-based localized-orbital Density Functional Theory code for educational purposes. </i></small>
       </td>
-      <td>Python, Shell</td>
+      <td>Python, TeX</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 21
       </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 1
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 4
       </td>
