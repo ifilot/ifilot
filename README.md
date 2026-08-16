@@ -97,7 +97,7 @@
           <small style="color: gray;"><i>Python-based localized-orbital Density Functional Theory code for educational purposes. </i></small>
       </td>
       <td>Python, TeX</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 21
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 22
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 1
       </td>
