@@ -333,6 +333,19 @@
     </tr>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
+          <a href="https://github.com/ifilot/gameboy-cartridge-reader">gameboy-cartridge-reader</a><br>
+          <small style="color: gray;"><i>Gameboy Cartridge Reader based on the Atmega 32u4</i></small>
+      </td>
+      <td>C, C++</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 3
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
           <a href="https://github.com/ifilot/cx16-kakuro">cx16-kakuro</a><br>
           <small style="color: gray;"><i>Logic puzzle game for the Commander X16</i></small>
       </td>
@@ -350,19 +363,6 @@
           <small style="color: gray;"><i>Commander X16 port of the venerable Othello (reversi) game</i></small>
       </td>
       <td>C, Pascal</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 2
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 0
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/gameboy-cartridge-reader">gameboy-cartridge-reader</a><br>
-          <small style="color: gray;"><i>Gameboy Cartridge Reader based on the Atmega 32u4</i></small>
-      </td>
-      <td>C, C++</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 2
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
