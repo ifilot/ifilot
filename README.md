@@ -349,7 +349,7 @@
           <a href="https://github.com/ifilot/cx16-kakuro">cx16-kakuro</a><br>
           <small style="color: gray;"><i>Logic puzzle game for the Commander X16</i></small>
       </td>
-      <td>C, Assembly</td>
+      <td>C, Python</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 2
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
@@ -362,7 +362,7 @@
           <a href="https://github.com/ifilot/cx16-othello">cx16-othello</a><br>
           <small style="color: gray;"><i>Commander X16 port of the venerable Othello (reversi) game</i></small>
       </td>
-      <td>C, Pascal</td>
+      <td>C, Assembly</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 2
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
