@@ -70,7 +70,7 @@
           <a href="https://github.com/ifilot/pypwdft">pypwdft</a><br>
           <small style="color: gray;"><i>Python-based plane wave density functional theory code for educational purposes</i></small>
       </td>
-      <td>Python, Shell</td>
+      <td>Python, TeX</td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 35
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
