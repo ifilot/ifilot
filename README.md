@@ -28,6 +28,19 @@
   <tbody>
     <tr>
       <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
+          <a href="https://github.com/ifilot/pyqint">pyqint</a><br>
+          <small style="color: gray;"><i>An Educational Hartree-Fock Code in Python: Transparent Implementation of Gaussian-Type Integrals, SCF Procedures, and Geometry Optimization</i></small>
+      </td>
+      <td>Python, C++</td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 62
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 3
+      </td>
+      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 15
+      </td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
           <a href="https://github.com/ifilot/dftcxx">dftcxx</a><br>
           <small style="color: gray;"><i>C++ based DFT program for educational purposes</i></small>
       </td>
@@ -37,19 +50,6 @@
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 0
       </td>
       <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 12
-      </td>
-    </tr>
-    <tr>
-      <td width="50%"><img src="https://github.com/primer/octicons/blob/main/icons/repo-16.svg" width="16" />
-          <a href="https://github.com/ifilot/pyqint">pyqint</a><br>
-          <small style="color: gray;"><i>An Educational Hartree-Fock Code in Python: Transparent Implementation of Gaussian-Type Integrals, SCF Procedures, and Geometry Optimization</i></small>
-      </td>
-      <td>Python, C++</td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/star-16.svg" width="16" /> 61
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/issue-opened-16.svg" width="16" /> 3
-      </td>
-      <td align="center"><img src="https://github.com/primer/octicons/blob/main/icons/repo-forked-16.svg" width="16" /> 15
       </td>
     </tr>
     <tr>
